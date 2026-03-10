@@ -7,7 +7,6 @@ function getData(){
 let data = localStorage.getItem("name")
 document.getElementById("output").innerText = data
 }
-
 function removeData(){
 localStorage.removeItem("name")
 alert("Data Removed")
